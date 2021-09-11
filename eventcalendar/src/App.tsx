@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar";
 import {Layout} from "antd";
 
 const App: FC = () => {
-  return (<div className="App">
+  return (<div className="App" style={{height: '100%'}}>
       <Navbar/>
-      <Layout.Content>
-          <AppRouter/>
+      <Layout.Content style={{height: '100%'}}>
+          <AppRouter />
       </Layout.Content>
     </div>
   );

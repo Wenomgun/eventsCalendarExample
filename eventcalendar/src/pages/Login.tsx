@@ -1,10 +1,14 @@
 import React from 'react';
+import LoginForm from "../components/LoginForm";
+import {Layout, Row} from "antd";
 
 const Login = () => {
     return (
-        <div>
-            Login
-        </div>
+        <Layout style={{height: '100%'}}>
+            <Row justify={'center'} align={'middle'} style={{height: '100%'}}>
+                <LoginForm></LoginForm>
+            </Row>
+        </Layout>
     );
 };
 
